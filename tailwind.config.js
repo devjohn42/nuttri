@@ -14,7 +14,12 @@ export default {
       olivine: '#9EB384',
       teaGreen: '#CEDEBD',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        home: 'url("/home.jpg")',
+        about: 'url("/about.jpg")',
+      },
+    },
   },
   plugins: [],
 };
