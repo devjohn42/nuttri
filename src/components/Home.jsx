@@ -2,9 +2,9 @@ import Button from './global/Button';
 
 const Home = () => {
   return (
-    <section className="bg-home bg-cover bg-center w-full h-screen relative flex items-center justify-center lg:justify-start">
-      <div className="bg-gradient-to-t from-[rgb(0,0,0,0.9)] w-full h-screen absolute"></div>
-      <div className="bg-oldLace shadow-[3px_3px_10px_rgb(0,0,0,0.8)] w-[90%] lg:w-[850px] xl:w-[1030px] p-[1.25rem] lg:p-[2.5rem] lg:ml-12 absolute z-10 flex flex-col items-start gap-y-[10px]">
+    <section className=" bg-home bg-fixed bg-cover bg-center w-full h-screen flex items-center justify-center lg:justify-start">
+      <div className="w-full h-screen absolute"></div>
+      <div className="bg-oldLace shadow-[3px_3px_10px_rgb(0,0,0,0.8)] w-[90%] lg:w-[850px] xl:w-[1030px] p-[1.25rem] lg:p-[2.5rem] lg:ml-12 absolute  flex flex-col items-start gap-y-[10px]">
         <h1 className="font-bold">
           Bem-vindo a Nuttri! Transformando vidas através da alimentação
           saudável
