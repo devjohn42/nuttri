@@ -37,6 +37,9 @@
   h3 {
     @apply text-[18px] md:text-[27px];
   }
+  a {
+    @apply text-[20px];
+  }
   p {
     line-height: 150%;
     @apply text-[16px] md:text-[18px];
