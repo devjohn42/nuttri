@@ -34,7 +34,7 @@
     @apply text-[20px] sm:text-[26px] md:text-[33px];
   }
   h3 {
-    @apply text-[18px] md:text-[20px];
+    @apply text-[16px] md:text-[20px];
   }
   a {
     @apply text-[20px];

@@ -18,6 +18,12 @@ export default {
       backgroundImage: {
         home: 'url("/home.jpg")',
         about: 'url("/about.jpg")',
+        cardOne: 'url("./cardOne.jpg")',
+        cardTwo: 'url("./cardTwo.jpg")',
+        cardThree: 'url("./cardThree.jpg")',
+        cardFour: 'url("./cardFour.jpg")',
+        cardFive: 'url("./cardFive.jpg")',
+        cardSix: 'url("./cardSix.jpg")',
       },
     },
   },
