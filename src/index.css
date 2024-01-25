@@ -19,7 +19,6 @@
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
     color: #435334;
-    
 
     @apply bg-oldLace;
   }
@@ -32,10 +31,10 @@
     @apply text-[24px] md:text-[42px];
   }
   h2 {
-    @apply text-[20px] md:text-[33px];
+    @apply text-[20px] sm:text-[26px] md:text-[33px];
   }
   h3 {
-    @apply text-[18px] md:text-[27px];
+    @apply text-[18px] md:text-[20px];
   }
   a {
     @apply text-[20px];

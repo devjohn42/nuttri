@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { MdClose, MdMenu } from 'react-icons/md';
 
 const linkHoverStyle = `relative text-oldLace select-none outline-none before:bg-[#ffffff] before:w-0 before:h-[2px] before:absolute before:bottom-0 before:left-0 
