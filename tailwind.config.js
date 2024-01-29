@@ -24,6 +24,7 @@ export default {
         cardFour: 'url("./cardFour.jpg")',
         cardFive: 'url("./cardFive.jpg")',
         cardSix: 'url("./cardSix.jpg")',
+        contactImg: 'url("./contactImg.jpeg")'
       },
     },
   },
