@@ -1,6 +1,6 @@
 const Service = () => {
   return (
-    <section className="w-full flex flex-col items-center lg:items-stretch gap-y-4">
+    <section className="w-full flex flex-col items-center lg:items-stretch gap-y-4 py-6">
       <div className="p-[0rem_1rem] flex flex-col gap-y-6 flex-wrap md:flex-row items-center justify-evenly">
         <img
           src="/online.jpg"
@@ -32,17 +32,13 @@ const Service = () => {
           />
         </div>
         <div className="w-[300px] sm:w-[350px] md:w-[400px] lg:w-[450px] flex flex-col gap-y-4">
-          <h2 className="font-bold">Atendimento Online</h2>
+          <h2 className="font-bold">Atendimento presencial</h2>
           <div className="flex flex-col gap-y-2">
             <p className="text-justify font-medium">
-              Nossa opção de atendimento online foi projetada para oferecer a
-              conveniência de receber orientações nutricionais de qualquer
-              lugar.
+            Nossa opção de atendimento presencial oferece a oportunidade de nos encontrarmos pessoalmente para discutir suas metas de saúde e trabalhar juntos em direção a uma jornada de bem-estar. 
             </p>
             <p className="text-justify font-medium">
-              Através de videochamadas interativas, estaremos virtualmente
-              conectados para discutir suas metas de saúde, analisar sua
-              alimentação atual e traçar um plano nutricional personalizado.
+            Durante nossas sessões, poderemos estabelecer uma conexão direta, analisar suas necessidades individuais e criar um plano nutricional específico para você.
             </p>
           </div>
         </div>
