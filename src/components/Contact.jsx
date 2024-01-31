@@ -26,7 +26,10 @@ const Contact = () => {
   const inputStyle = 'outline-none px-4 mb-6 py-2 border-[1px] rounded-md';
 
   return (
-    <div className=" bg-hunterGreen flex w-full justify-center h-screen">
+    <div
+      id="contact"
+      className=" bg-hunterGreen flex w-full justify-center h-screen"
+    >
       <div className=" xl:w-2/4 w-full md:w-[95%]  flex flex-col justify-evenly items-center">
         <h2 className=" font-bold uppercase text-oldLace">Fale com a gente!</h2>
         <div className=" bg-oldLace md:w-4/6 flex justify-center">

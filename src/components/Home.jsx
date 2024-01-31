@@ -3,6 +3,7 @@ import Button from './global/Button';
 const Home = () => {
   return (
     <section
+      id="home"
       className={
         (window.innerWidth <= 768 ? 'bg-center' : ' ') +
         ' bg-home bg-fixed bg-cover w-full h-screen flex items-center lg:items-end justify-center lg:justify-start'

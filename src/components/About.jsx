@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <section className="bg-about bg-cover bg-center w-full h-screen relative">
+    <section
+      id="about"
+      className="bg-about bg-cover bg-center w-full h-screen relative"
+    >
       <div className="bg-hunterGreen w-full lg:w-[850px] p-[1.25rem] sm:p-[3rem] lg:p-[6rem] absolute top-16 lg:right-8 flex flex-col gap-y-5 items-center justify-center">
         <h2 className="text-oldLace font-bold">
           Promovemos Saúde e Bem-Estar Através da Nutrição

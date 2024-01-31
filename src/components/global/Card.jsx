@@ -1,5 +1,5 @@
-import ReactCardFlip from "react-card-flip";
-import { useState } from "react";
+import ReactCardFlip from 'react-card-flip';
+import { useState } from 'react';
 
 // eslint-disable-next-line react/prop-types
 const Card = ({ title, bg, icon, message }) => {
@@ -11,11 +11,11 @@ const Card = ({ title, bg, icon, message }) => {
 
   const handleMouseOver = () => {
     setIsFlipped(true);
-  }
+  };
 
   const handleMouseOut = () => {
-    setIsFlipped(false)
-  }
+    setIsFlipped(false);
+  };
 
   return (
     <ReactCardFlip
@@ -26,7 +26,8 @@ const Card = ({ title, bg, icon, message }) => {
     >
       <div
         className={`${bg} bg-cover w-64 h-52 xl:w-96 xl:h-64`}
-        onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}
+        onMouseOver={handleMouseOver}
+        onMouseOut={handleMouseOut}
       >
         <div className="flex flex-col items-center justify-center gap-y-4 h-full bg-hunterGreen/70">
           <div className="w-14 h-14  md:w-16 md:h-16  xl:w-28 xl:h-28 bg-[#00000080] rounded-full flex items-center justify-center text-oldLace text-2xl  lg:text-3xl xl:text-6xl">
@@ -38,7 +39,8 @@ const Card = ({ title, bg, icon, message }) => {
 
       <div
         className="p-6 bg-hunterGreen flex flex-col items-center justify-center gap-y-4 w-64 h-52 xl:w-96 xl:h-64"
-        onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}
+        onMouseOver={handleMouseOver}
+        onMouseOut={handleMouseOut}
       >
         <h3 className="text-oldLace text-center">{message}</h3>
       </div>

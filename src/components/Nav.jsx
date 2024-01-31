@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { MdClose, MdMenu } from 'react-icons/md';
+import { Link } from 'react-scroll';
 
-const linkHoverStyle = `relative text-oldLace select-none outline-none before:bg-[#ffffff] before:w-0 before:h-[2px] before:absolute before:bottom-0 before:left-0 
+const linkHoverStyle = `relative text-oldLace select-none cursor-pointer outline-none before:bg-[#ffffff] before:w-0 before:h-[2px] before:absolute before:bottom-0 before:left-0 
 before:transition-all before:duration-500 hover:before:w-full`;
 
 const Nav = () => {
@@ -10,6 +11,10 @@ const Nav = () => {
     if (window.innerWidth >= 1024) {
       setNavOpen(false);
     }
+  };
+
+  const handleCloseNav = () => {
+    setNavOpen(false);
   };
 
   useEffect(() => {
@@ -42,21 +47,61 @@ const Nav = () => {
           )}
         </div>
         <nav className="hidden lg:flex items-center gap-x-8">
-          <a href="" className={`${linkHoverStyle}`}>
+          <Link
+            to="home"
+            className={`${linkHoverStyle}`}
+            smooth={true}
+            duration={800}
+            delay={300}
+          >
             Início
-          </a>
-          <a href="" className={`${linkHoverStyle}`}>
+          </Link>
+          <Link
+            to="about"
+            className={`${linkHoverStyle}`}
+            smooth={true}
+            duration={800}
+            delay={300}
+          >
             Sobre
-          </a>
-          <a href="" className={`${linkHoverStyle}`}>
+          </Link>
+          <Link
+            to="benefits"
+            className={`${linkHoverStyle}`}
+            smooth={true}
+            duration={800}
+            delay={300}
+          >
             Benefícios
-          </a>
-          <a href="" className={`${linkHoverStyle}`}>
+          </Link>
+          <Link
+            to="service"
+            className={`${linkHoverStyle}`}
+            smooth={true}
+            duration={800}
+            delay={300}
+            offset={-110}
+          >
+            Atendimento
+          </Link>
+          <Link
+            to="pricing"
+            className={`${linkHoverStyle}`}
+            smooth={true}
+            duration={800}
+            delay={300}
+          >
             Planos
-          </a>
-          <a href="" className={`${linkHoverStyle}`}>
+          </Link>
+          <Link
+            to="contact"
+            className={`${linkHoverStyle}`}
+            smooth={true}
+            duration={800}
+            delay={300}
+          >
             Contato
-          </a>
+          </Link>
         </nav>
       </div>
       <div
@@ -67,36 +112,67 @@ const Nav = () => {
         }
       >
         <nav className="w-full flex flex-col gap-y-1 ">
-          <a
-            href=""
+          <Link
+            to="home"
             className="text-center p-[0.5rem_0rem] bg-oldLace select-none"
+            smooth={true}
+            duration={800}
+            delay={300}
+            onClick={handleCloseNav}
           >
             Início
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="about"
             className="text-center p-[0.5rem_0rem] bg-oldLace select-none"
+            smooth={true}
+            duration={800}
+            delay={300}
+            onClick={handleCloseNav}
           >
             Sobre
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="benefits"
             className="text-center p-[0.5rem_0rem] bg-oldLace select-none"
+            smooth={true}
+            duration={800}
+            delay={300}
+            onClick={handleCloseNav}
           >
             Benefícios
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="service"
             className="text-center p-[0.5rem_0rem] bg-oldLace select-none"
+            smooth={true}
+            duration={800}
+            delay={300}
+            offset={-110}
+            onClick={handleCloseNav}
+          >
+            Atendimento
+          </Link>
+          <Link
+            to="pricing"
+            className="text-center p-[0.5rem_0rem] bg-oldLace select-none"
+            smooth={true}
+            duration={800}
+            delay={300}
+            onClick={handleCloseNav}
           >
             Planos
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="contact"
             className="text-center p-[0.5rem_0rem] bg-oldLace select-none"
+            smooth={true}
+            duration={800}
+            delay={300}
+            onClick={handleCloseNav}
           >
             Contato
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

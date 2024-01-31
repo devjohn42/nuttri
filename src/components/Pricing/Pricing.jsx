@@ -3,7 +3,10 @@ import { pricingData } from '../../data/pricing.js';
 
 const Pricing = () => {
   return (
-    <section className="bg-hunterGreen py-12 flex justify-evenly items-center flex-col gap-y-8">
+    <section
+      id="pricing"
+      className="bg-hunterGreen lg:h-screen py-12 flex justify-evenly items-center flex-col gap-y-8"
+    >
       <h2 className="font-bold uppercase text-oldLace">
         Conheça nossos Planos
       </h2>
