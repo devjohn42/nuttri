@@ -8,7 +8,7 @@ const Service = () => {
         <img
           src="/online.jpg"
           alt=""
-          className="w-[300px] sm:w-[350px] hidden lg:flex md:w-[400px] lg:w-[500px]"
+          className="hidden lg:flex md:w-[400px] lg:w-[500px]"
         />
         <div className="w-[300px] sm:w-[350px] md:w-[400px] lg:w-[450px] flex flex-col gap-y-4">
           <h2 className="font-bold">Atendimento Online</h2>
@@ -31,7 +31,7 @@ const Service = () => {
           <img
             src="/personal.jpg"
             alt=""
-            className="w-[300px] sm:w-[350px] hidden lg:flex md:w-[400px] lg:w-[500px]"
+            className="hidden lg:flex md:w-[400px] lg:w-[500px]"
           />
         </div>
         <div className="w-[300px] sm:w-[350px] md:w-[400px] lg:w-[450px] flex flex-col gap-y-4">

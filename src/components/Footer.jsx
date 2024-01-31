@@ -8,10 +8,10 @@ const Footer = () => {
         alt=""
         className="w-[50px] sm:w-[70px] md:w-[100px]"
       />
-      <nav className="flex gap-x-3">
+      <nav className="flex gap-x-3 flex-wrap  justify-center">
         <Link
           to="home"
-          className="cursor-pointer text-[1rem] sm:text-[20px] font-medium"
+          className="cursor-pointer text-[0.875rem] sm:text-[20px] font-medium"
           smooth={true}
           duration={800}
           delay={300}
@@ -20,7 +20,7 @@ const Footer = () => {
         </Link>
         <Link
           to="about"
-          className="cursor-pointer text-[1rem] sm:text-[20px] font-medium"
+          className="cursor-pointer text-[0.875rem] sm:text-[20px] font-medium"
           smooth={true}
           duration={800}
           delay={300}
@@ -29,7 +29,7 @@ const Footer = () => {
         </Link>
         <Link
           to="benefits"
-          className="cursor-pointer text-[1rem] sm:text-[20px] font-medium"
+          className="cursor-pointer text-[0.875rem] sm:text-[20px] font-medium"
           smooth={true}
           duration={800}
           delay={300}
@@ -38,7 +38,7 @@ const Footer = () => {
         </Link>
         <Link
           to="service"
-          className="cursor-pointer text-[1rem] sm:text-[20px] font-medium"
+          className="cursor-pointer text-[0.875rem] sm:text-[20px] font-medium"
           smooth={true}
           duration={800}
           delay={300}
@@ -48,7 +48,7 @@ const Footer = () => {
         </Link>
         <Link
           to="pricing"
-          className="cursor-pointer text-[1rem] sm:text-[20px] font-medium"
+          className="cursor-pointer text-[0.875rem] sm:text-[20px] font-medium"
           smooth={true}
           duration={800}
           delay={300}
@@ -57,7 +57,7 @@ const Footer = () => {
         </Link>
         <Link
           to="contact"
-          className="cursor-pointer text-[1rem] sm:text-[20px] font-medium"
+          className="cursor-pointer text-[0.875rem] sm:text-[20px] font-medium"
           smooth={true}
           duration={800}
           delay={300}
