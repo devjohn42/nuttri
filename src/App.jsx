@@ -8,20 +8,25 @@ import Pricing from './components/Pricing/Pricing';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Modal from './components/Modal/Modal';
+import { ModalProvider } from './context/ModalContext';
 
 const App = () => {
   return (
     <>
-      <Nav />
-      <Home />
-      <About />
-      <Benefits />
-      <Divisor />
-      <Service />
-      <Pricing />
-      <Testimonials />
-      <Contact />
-      <Footer />
+      <ModalProvider>
+        <Modal />
+        <Nav />
+        <Home />
+        <About />
+        <Benefits />
+        <Divisor />
+        <Service />
+        <Pricing />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </ModalProvider>
     </>
   );
 };
