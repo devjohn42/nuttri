@@ -1,16 +1,7 @@
 import React from 'react';
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
-const CardModal = ({
-  name,
-  img,
-  linkedin,
-  github,
-  siteLink,
-  site,
-  othersLink,
-  others,
-}) => {
+const CardModal = ({ name, img, linkedin, github, siteLink, site, othersLink, others }) => {
   return (
     <div className="w-[220px] h-[350px] lg:w-[285px] lg:h-[420px] bg-oldLace flex flex-col items-center rounded-[0.5rem] py-2 gap-y-3">
       <div className="w-full flex flex-col items-center gap-y-3">

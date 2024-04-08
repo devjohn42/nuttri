@@ -7,20 +7,10 @@ before:transition-all before:duration-500 hover:before:w-full`;
 
 const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
-  const watchingResize = () => {
-    if (window.innerWidth >= 1024) {
-      setNavOpen(false);
-    }
-  };
-
   const handleCloseNav = () => {
     setNavOpen(false);
   };
 
-  useEffect(() => {
-    window.addEventListener('resize', watchingResize);
-    // console.log(window.innerWidth)
-  }, []);
   return (
     <header className="w-full bg-hunterGreen absolute top-0 left-0 p-[0.75rem_0rem] lg:p-[1rem_0rem]">
       <div className="flex items-center justify-around">
