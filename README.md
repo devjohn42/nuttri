@@ -13,6 +13,10 @@ Nuttri é uma plataforma online projetada para auxiliar os usuários em questõe
 - Gabriel Torres - Desenvolvedor Front-End: [gtorrespcode](https://github.com/gtorrespcode)
 - João Vitor - Desenvolvedor Front-End: [devjohn42](https://github.com/devjohn42)
 
+### ☘ Visite o Projeto
+
+- Website [Nuttri](https://nuttri.netlify.app/)
+
 ### 🤝🏻 Contribuições
 
 Contribuições são bem-vindas! Se você encontrar um problema ou desejar adicionar novos recursos, sinta-se à vontade para criar um Pull Request.
